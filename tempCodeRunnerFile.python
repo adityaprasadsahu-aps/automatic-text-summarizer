@@ -1,0 +1,12 @@
+import os
+
+# This prints the full path to where your model folder is located
+print("Your model is here:")
+print(os.path.abspath("./summarizer_model"))
+
+# This checks if the files actually exist inside
+if os.path.exists("./summarizer_model"):
+    print("\nFiles found:")
+    print(os.listdir("./summarizer_model"))
+else:
+    print("\nFolder not found! Run the save script first.")

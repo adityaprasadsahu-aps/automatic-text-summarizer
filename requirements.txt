@@ -1,0 +1,11 @@
+# Core ML Libraries
+transformers
+torch
+sentencepiece
+
+# TensorFlow Compatibility (Fixes the Keras 3 error)
+tf-keras
+tensorflow
+
+# Web App Interface
+streamlit
